@@ -1,0 +1,8 @@
+- [ ] welcome
+	- [[index|PublishKit]] || paper-plane
+	- [[settings|Settings]] || cog
+	- [[themes/index|Themes]] || palette
+	- [[plugins/index|Plugins]] || package
+	- [[showcase|Showcase]] ||  category
+	- [[pricing|Pricing]] || dollar-circle
+	- [[contact|Contact]] || envelope
