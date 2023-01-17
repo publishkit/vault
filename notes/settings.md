@@ -1,4 +1,5 @@
 ---
+title: Settings
 alias: pkrc
 ---
 

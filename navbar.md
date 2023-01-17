@@ -1,5 +1,5 @@
 - [ ] welcome
-	- [[index|PublishKit]] || paper-plane
+	- [[indexSoon|PublishKit]] || paper-plane
 	- [[settings|Settings]] || cog
 	- [[themes/index|Themes]] || palette
 	- [[plugins/index|Plugins]] || package

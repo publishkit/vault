@@ -1,6 +1,10 @@
 ---
+foo: bar
+
 ---
 # html showcase
+
+cont [[contact]]
 
 ## typography
 
