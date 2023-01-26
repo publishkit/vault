@@ -1,0 +1,3 @@
+- google analytics
+- internal/external class on links
+- embed plugin with outline option

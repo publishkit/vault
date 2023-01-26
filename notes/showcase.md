@@ -1,15 +1,12 @@
 ---
-foo: bar
-
 ---
 # html showcase
-
-cont [[contact]]
 
 ## typography
 
 <article aria-label="Inline text examples"><div class="grid"><div><p><abbr title="Abbreviation">Abbr.</abbr> <code>abbr</code></p><p><strong>Bold</strong> <code>strong</code> <code>b</code></p><p><em>Italic</em> <code>i</code> <code>em</code> <code>cite</code></p><p><del>Deleted</del> <code>del</code></p><p><ins>Inserted</ins> <code>ins</code></p><p><kbd>Ctrl + S</kbd> <code>kbd</code></p></div><div><p><mark>Highlighted</mark> <code>mark</code></p><p><s>Strikethrough</s> <code>s</code></p><p><small>Small </small><code>small</code></p><p>Text <sub>Sub</sub> <code>sub</code></p><p>Text <sup>Sup</sup> <code>sup</code></p><p><u>Underline</u> <code>u</code></p></div></div></article>
 
+Find out more about fonts [[fonts|here]].
 
 ## callouts
 
@@ -59,10 +56,11 @@ cont [[contact]]
 const foo = "bar,baz".split(',')[0]
 ```
 
+Find out about code highlight [[highlight|here]].
 
 ## icons
 
-Choose any of the 1634 open source icons from [boxicons](https://boxicons.com/)
+Choose any of the 1634 open source icons from [boxicons](https://boxicons.com/).
 
 ```html
 <i class='bx bxs-plane bx-xs'></i>
@@ -105,29 +103,29 @@ Choose any of the 1634 open source icons from [boxicons](https://boxicons.com/)
 
 ## modal
 
-<a href="#" role="button" class="contrast outline" data-click="$('#modal-example').modal('open', event)">Open modal</a>
+<button class="contrast outline" data-click="$modal.open('modal-example')">Open modal</button>
 <!-- Modal -->
 <dialog id="modal-example">
   <article>
-    <a href="#" class="close" data-click="$('#modal-example').modal('close', event)"></a>
-    <h3>Confirm your action!</h3>
-    <p>
-      Cras sit amet maximus risus.<br/>
-      Pellentesque sodales odio sit amet augue finibus pellentesque.<br/><br/> 
-      Nullam finibus risus non semper euismod.
-    </p>
-    <footer>
-      <a href="#" role="button" class="secondary" data-click="$('#modal-example').modal('close', event)">
-        Cancel
-      </a>
-      <a href="#"  role="button" data-click="$('#modal-example').modal('close', event)">
-        Confirm
-      </a>
-    </footer>
+	<a href="#" class="close" data-click="return $modal.close()"></a>
+	<h3>Confirm your action!</h3>
+	<p>
+	  Cras sit amet maximus risus.<br/>
+	  Pellentesque sodales odio sit amet augue finibus pellentesque.<br/><br/> 
+	  Nullam finibus risus non semper euismod.
+	</p>
+	<footer>
+	  <button class="secondary" data-click="$modal.close()">
+		Cancel
+	  </button>
+	  <button data-click="$modal.close()">
+		Confirm
+	  </button>
+	</footer>
   </article>
 </dialog>
 
-Find how to use modals [[modal|here]].
+Find out more about modals [[modal|here]].
 
 ## forms
 
@@ -142,6 +140,14 @@ Find how to use modals [[modal|here]].
 <option>…</option>
 <option>…</option>
 </select>
+<details role="list">
+  <summary aria-haspopup="listbox">Dropdown</summary>
+  <ul role="listbox">
+	<li><a href="#">Action</a></li>
+	<li><a href="#">Another action</a></li>
+	<li><a href="#">Something else here</a></li>
+  </ul>
+</details>
 <!-- Radios -->
 <fieldset>
 <legend>Size</legend>
@@ -193,6 +199,7 @@ Find how to use modals [[modal|here]].
 
 ![[showcase-pdf.pdf]]
 
+Find out more about pdfs [[pdf|here]].
 
 ## background
 <div>

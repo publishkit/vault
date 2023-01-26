@@ -1,8 +1,13 @@
 - [ ] welcome
-	- [[indexSoon|PublishKit]] || paper-plane
-	- [[settings|Settings]] || cog
-	- [[themes/index|Themes]] || palette
-	- [[plugins/index|Plugins]] || package
-	- [[showcase|Showcase]] ||  category
-	- [[pricing|Pricing]] || dollar-circle
-	- [[contact|Contact]] || envelope
+	- [[index|PublishKit]] || bx-paper-plane
+	- [[settings|Settings]] || bx-cog
+	- [[themes/index|Themes]] || bx-palette
+	- [[showcase|Showcase]] ||  bx-category
+	- [[pricing|Pricing]] || bx-dollar-circle
+- [ ] plugins
+	- [[plugins/index|General]]
+	- [[plugins/core/index|Core]]
+	- [[plugins/community/index|Community]]
+- [ ] other
+	- [[blog/index|Blog]] || bx-notepad
+	- [[contact|Contact]] || bx-envelope
