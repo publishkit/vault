@@ -1,4 +1,5 @@
 ---
+alias: $search
 core: true
 author: louis
 description: Enable global full-text search

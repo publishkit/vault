@@ -1,4 +1,5 @@
 ---
+alias: $frontmatter
 core: true
 author: louis
 description: Debug file frontmatter

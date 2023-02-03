@@ -1,4 +1,5 @@
 ---
+alias: $modal
 core: true
 author: louis
 description: Enable & create modals

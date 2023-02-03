@@ -1,4 +1,5 @@
 ---
+alias: $toc
 core: true
 author: louis
 description: Add a table of content

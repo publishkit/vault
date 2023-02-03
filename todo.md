@@ -1,3 +1,3 @@
-- google analytics
-- internal/external class on links
-- embed plugin with outline option
+- [x] google analytics
+- [x] internal/external class on links
+- [x] embed plugin with outline option

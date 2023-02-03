@@ -1,4 +1,5 @@
 ---
+alias: $hero
 core: true
 author: louis
 description: Add a hero banner

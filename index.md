@@ -1,13 +1,14 @@
 ---
 title: PublishKit
-alias: [publishkit, home]
+alias: $home
 tags: home, rocknroll
+plugins:
+  frontmatter: false
 ---
-# PublishKit
 
-> Ship markdown based websites 🚀
+> [!hero] Publish markdown content
 
-`= this.title` is a [no-code](https://en.wikipedia.org/wiki/No-code_development_platform), plugin based framework, that can turn [markdown](https://en.wikipedia.org/wiki/Markdown) files into a fully featured and highly customizable [static website](https://en.wikipedia.org/wiki/Static_web_page) ready to be served on the [edge](https://en.wikipedia.org/wiki/Edge_computing).
+`= this.title` is content first, [no-code](https://en.wikipedia.org/wiki/No-code_development_platform) & community plugin based framework, that turns a [markdown](https://en.wikipedia.org/wiki/Markdown) folder into a fully featured and highly customizable [static website](https://en.wikipedia.org/wiki/Static_web_page) ready to be served on the [edge](https://en.wikipedia.org/wiki/Edge_computing).
 
 
 ## features
@@ -47,8 +48,8 @@ Because PublisKit renders static html files, it won't be suitable for projects t
 
 ## installation
 
-- for CLI users: [[notes/cli/index|click here]]
-- for Obsidian users: [[notes/obsidian/index|click here]]
+- for CLI users: [[doc/setup/cli/index|click here]]
+- for Obsidian users: [[doc/setup/obsidian/index|click here]]
 
 
 ## about

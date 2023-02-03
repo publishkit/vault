@@ -1,6 +1,7 @@
 ---
-title: Plugins
-alias: Plugins
+title: $plugins
+alias: $plugins
+description: "Plugins Paradise"
 ---
 # Plugins
 
@@ -15,7 +16,7 @@ There are no limits except imagination on what a plugin can do. PublishKit provi
 
 ## usage
 
-To use a plugin, open your [[doc/pkrc|pkrc]] file and in the `plugins` section, add a new entry with the id of the plugin set to `true`.
+To use a plugin, open your [[doc/services/pkrc|pkrc]] file and in the `plugins` section, add a new entry with the id of the plugin set to `true`.
 
 ```yaml
 plugins:
@@ -29,7 +30,7 @@ plugins:
 
 ## options
 
-Some plugins have options. To configure them, add a new entry at the root of your [[doc/pkrc|pkrc]] file with the plugin id, then add key values for the options.
+Some plugins have options. To configure them, add a new entry at the root of your [[doc/services/pkrc|pkrc]] file with the plugin id, then add key values for the options.
 
 ```yaml
 plugin1:
@@ -39,7 +40,7 @@ plugin1:
 
 ## overriding
 
-Remember that each setting in your [[doc/pkrc|pkrc]] file can be overrided on a file or directory basis. This let you have a global site configuration via the `pkrc`, and fine tune any page of your site.
+Remember that each setting in your [[doc/services/pkrc|pkrc]] file can be overrided on a file or directory basis. This let you have a global site configuration via the `pkrc`, and fine tune any page of your site.
 
 Let's say you want to activate `plugin1` on the entire site, except on your contact page. You will set your `pkrc` like:
 

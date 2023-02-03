@@ -1,0 +1,7 @@
+- [Internal Link A](/)
+- [Internal Link B](//example.org)
+- [Internal Link C](http://example.org)
+- [Internal Link D](other-page.html)
+- [Internal Link E](.././other-page.html)
+- [External Link A](//example.com)
+- [External Link B](http://example.com)

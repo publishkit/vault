@@ -1,0 +1,4 @@
+---
+plugins:
+  breadcrumbs: true
+---

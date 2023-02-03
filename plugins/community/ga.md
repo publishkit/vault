@@ -1,4 +1,5 @@
 ---
+alias: $ga
 core: true
 author: louis
 description: Google analytics
@@ -18,5 +19,5 @@ plugins:
 
 ```yaml
 ga:
-  id: MWGQ40965P
+  id: G-MOPQ40875V
 ```
