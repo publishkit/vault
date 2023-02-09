@@ -4,9 +4,11 @@ alias: $home
 tags: home, rocknroll
 plugins:
   frontmatter: false
+og:
+  image: https://publishkit.dev/attachements/og-image.jpeg
 ---
 
-> [!hero] Publish markdown content
+> [!hero] Markdown web apps
 
 `= this.title` is content first, [no-code](https://en.wikipedia.org/wiki/No-code_development_platform) & community plugin based framework, that turns a [markdown](https://en.wikipedia.org/wiki/Markdown) folder into a fully featured and highly customizable [static website](https://en.wikipedia.org/wiki/Static_web_page) ready to be served on the [edge](https://en.wikipedia.org/wiki/Edge_computing).
 

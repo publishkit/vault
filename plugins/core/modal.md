@@ -46,7 +46,7 @@ modal element:
   <article>
 	<a href="#" class="close" 
 	   data-click="return $modal.close()"></a>
-	<h3>Confirm your action!</h3>
+	<h2>Confirm your action!</h2>
 	<p>
 	  Cras sit amet maximus risus.<br/>
 	  Pellentesque sodales odio sit amet augue finibus pellentesque.<br/><br/> 
@@ -71,7 +71,7 @@ modal element:
 <dialog id="modal-example">
   <article>
 	<a href="#" class="close" data-click="return $modal.close()"></a>
-	<h3>Confirm your action!</h3>
+	<h2 class="noprocess">Confirm your action!</h2>
 	<p>
 	  Cras sit amet maximus risus.<br/>
 	  Pellentesque sodales odio sit amet augue finibus pellentesque.<br/><br/> 

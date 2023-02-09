@@ -10,3 +10,5 @@ This is our main documentation.
 ![[doc/setup/index|Setup]]
 
 ![[doc/services/index|Services]]
+
+![[top level variables]]
