@@ -1,8 +1,8 @@
 ---
-title: $theme
+title: theme
 alias: $theme
 ---
-# $theme
+# theme
 
 ## options
 

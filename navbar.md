@@ -1,9 +1,9 @@
 - [ ] welcome
 	- [[index|Home]] || bx-paper-plane
-	- [[doc/index|Documentation]] || bxs-file-doc
-	- [[plugins/index|$plugins]] ||[[plugins/index]] bxs-package
-	- [[theme/index|$theme]] || bx-palette
-	- [[doc/ui/elements/index|$ui]] ||  bx-category
+	- [[doc/index|Guide]] || bx-book-open
+	- [[plugins/index|Plugins]] || bxs-package
+	- [[theme/index|Theme]] || bx-palette
+	- [[doc/ui/elements/index|UI]] ||  bx-category
 - [ ] other
 	- [[pricing|Pricing]] || bx-dollar-circle
 	- [[blog/index|Blog]] || bx-notepad

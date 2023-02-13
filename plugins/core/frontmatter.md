@@ -8,7 +8,7 @@ description: Debug file frontmatter
 
 > Debug file frontmatter
 
-This plugin add an action to the action list that which open a modal showing you the current file frontmatter, the site pkrc, or the merged config. It can be useful for debuging.
+This plugin adds an action showing you the current file frontmatter, the `kitrc`, and the merged configuration. It can be useful for debuging.
 
 ## use
 

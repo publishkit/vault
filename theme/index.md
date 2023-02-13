@@ -1,6 +1,6 @@
 ---
-alias: $theme
-title: $theme
+title: Theme
+alias: Theme, $theme
 description: Configure theme
 ---
 # theme

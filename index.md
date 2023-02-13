@@ -7,27 +7,34 @@ plugins:
 og:
   image: https://publishkit.dev/attachements/og-image.jpeg
 ---
+# Markdown web apps
 
-> [!hero] Markdown web apps
+`= this.title` is a [no-code](https://en.wikipedia.org/wiki/No-code_development_platform) & plugin centric framework that turns [markdown](https://en.wikipedia.org/wiki/Markdown) into minimals or fully featured [static web apps](https://en.wikipedia.org/wiki/Static_web_page) ready for the [edge](https://en.wikipedia.org/wiki/Edge_computing).
 
-`= this.title` is content first, [no-code](https://en.wikipedia.org/wiki/No-code_development_platform) & community plugin based framework, that turns a [markdown](https://en.wikipedia.org/wiki/Markdown) folder into a fully featured and highly customizable [static website](https://en.wikipedia.org/wiki/Static_web_page) ready to be served on the [edge](https://en.wikipedia.org/wiki/Edge_computing).
+Project documentations, blogs, wikis, [digital gardens](https://github.com/MaggieAppleton/digital-gardeners), academia, table-top games, even shops... You organise the content the way you want, and simply reference plugins to add context around and across pages, in seconds.
 
 
 ## features
 
-- [x] no code
-- [x] community plugins & themes
-- [x] plugins injection via url
-- [x] global, directory and file config
+Core features:
+- [x] no code, declarative configuration only
+- [x] global, directory, file and url grained configuration
+- [x] theme builder (colors, fonts, headers, backgrounds)
 - [x] full-text search
-- [x] password protected pages
+- [x] password protected site, page or directory
 - [x] assets support (images & pdfs)
-- [x] seo friendly (open graph)
+- [x] seo ready (open graph)
 - [x] code highlighting
-- [x] custom table of content
+- [x] custom navbar
+- [x] table of content
 - [x] breadcrumbs
-- [x] bootstrap utilities
-- [x] & so much more
+- [x] css utilities
+
+Community features:
+- [x] google analitycs
+- [x] chargebee payments
+- [x] disqus
+- [ ] ...
 
 Obsidian features: 
 
@@ -40,23 +47,25 @@ Obsidian features:
 - [ ] canvas ?
 
 
-## usecase
+## gist
 
-PublishKit is ideal for content based websites and is aimed at markdown users looking to publish their blog, wikis, [digital garden](https://github.com/MaggieAppleton/digital-gardeners) or projects documentation.
+PublishKit is targeted at markdown users looking to publish any kind of projects. The `kit` power resides in the Ui & Ux features it can bring to the content. 
 
-PublishKit can be used natively via it's `cli`, or via a plugin in your favorite [PKM](https://en.wikipedia.org/wiki/Personal_knowledge_management) software.
+By simply referencing a plugin in the frontmatter of a markdown file, you control exactly wich features the published content will gain. By combining plugins, you can build very powerful use cases and applications. 
 
-Because PublisKit renders static html files, it won't be suitable for projects that requires authentification or databases.
+The `kit` converts markdown files into static html files for you to host anywhere you want. We use github pages, but any hosting provider will do.
 
-## installation
 
-- for CLI users: [[doc/setup/cli/index|click here]]
-- for Obsidian users: [[doc/setup/obsidian/index|click here]]
+## get started
+
+- [[doc/index|User Guide]]
+- [[plugins/index|Plugins]]
+- [[theme/index|Theme]]
 
 
 ## about
 
-PublishKit is developed by a french based indie studio named [[Studio1337]]. We are a truly passionnate remote team with more then 20 years of tech expertise. We  design elegant and robust software and bring high value to our clients.
+PublishKit is developed by a french based indie studio named [[Studio1337]]. We are  passionnate folks with more then 20 years of tech expertise. We craft and design unique software, for specific needs, one project at a time, and taking the the time to , as we see fit. Programming is the art we practice.
 
 PublishKit is a full time project. We are actively focused on delivering best in class services and growing our community. We'd love to hear from you. If you have any question or feedback, we are on [discord](https://discord.gg/XMgVPajeT9)!
 

@@ -24,7 +24,7 @@ hero:
   height: 300px
 ```
 
-- the image option fall back to the pkrc root `image` variable.
+- If you register the plugin without the image option, the pugin will look for an image in the top level `image` variable in your `kitrc`. If no image found, then plugin won't register.
 
 
 ## preview

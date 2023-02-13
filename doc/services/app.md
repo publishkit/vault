@@ -1,5 +1,5 @@
 ---
-title: $app
+title: app
 alias: $app
 ---
-# $app
+# app

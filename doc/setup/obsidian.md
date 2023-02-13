@@ -1,5 +1,5 @@
 ---
-title: Obsidian setup
+title: Obsidian Plugin
 alias: $setup.obsidian
 ---
 # Obsidian setup

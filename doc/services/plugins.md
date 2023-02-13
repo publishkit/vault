@@ -1,5 +1,5 @@
 ---
-title: $plugins
+title: plugins
 alias: $plugins
 ---
-# $plugins
+# plugins
