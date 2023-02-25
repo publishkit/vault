@@ -7,33 +7,36 @@ plugins:
 og:
   image: https://publishkit.dev/attachements/og-image.jpeg
 ---
-# Markdown web apps
 
-`= this.title` is a [no-code](https://en.wikipedia.org/wiki/No-code_development_platform) & plugin centric framework that turns [markdown](https://en.wikipedia.org/wiki/Markdown) into minimals or fully featured [static web apps](https://en.wikipedia.org/wiki/Static_web_page) ready for the [edge](https://en.wikipedia.org/wiki/Edge_computing).
+<!-- hero_title --><p data-ui="hero_title"></p>
+- title: Markdown publishing framework, as a service !
+- label: version 1.6.3
 
-Project documentations, blogs, wikis, [digital gardens](https://github.com/MaggieAppleton/digital-gardeners), academia, table-top games, even shops... You organise the content the way you want, and simply reference plugins to add context around and across pages, in seconds.
 
+The `kit` renders markdown into any kind of web application, and with the use of plugins and declarative syntax, you can customize every aspect of your pages, in seconds!
 
 ## features
 
 Core features:
-- [x] no code, declarative configuration only
-- [x] global, directory, file and url grained configuration
-- [x] theme builder (colors, fonts, headers, backgrounds)
-- [x] full-text search
-- [x] password protected site, page or directory
-- [x] assets support (images & pdfs)
-- [x] seo ready (open graph)
+- [x] no code, declarative [[doc/services/kitrc|configuration]] only
+- [x] content binding via [[props]]
+- [x] global, folder & file level configuration
+- [x] [[theme/index|theming]] (colors, fonts, headers, ...)
+- [x] full-text [[search|search]] 
+- [x] [[plugins/core/password|password]] protected content
+- [x] assets support (images & [[plugins/core/pdf|pdfs]])
+- [x] seo & [[og|open graph]] ready
 - [x] code highlighting
-- [x] custom navbar
-- [x] table of content
-- [x] breadcrumbs
+- [x] custom [[plugins/core/navbar|navbar]]
+- [x] [[toc|table of content]]
+- [x] [[breadcrumbs|breadcrumbs]]
 - [x] css utilities
 
+
 Community features:
-- [x] google analitycs
-- [x] chargebee payments
-- [x] disqus
+- [x] [[ga|google analytics]]
+- [x] [[chargebee]]
+- [ ] disqus
 - [ ] ...
 
 Obsidian features: 
@@ -47,13 +50,17 @@ Obsidian features:
 - [ ] canvas ?
 
 
-## gist
+## intro
 
-PublishKit is targeted at markdown users looking to publish any kind of projects. The `kit` power resides in the Ui & Ux features it can bring to the content. 
 
-By simply referencing a plugin in the frontmatter of a markdown file, you control exactly wich features the published content will gain. By combining plugins, you can build very powerful use cases and applications. 
+The kit really shines when used via a markdown PKM like Obsidian or Logseq. By using PKM internal features & plugins, like `[[wiki links]]` or `dataview` queries, you give more capabilities to your content. Combined with the kit plugins, you can shape and ship all kinds of web apps from a single tool.
 
-The `kit` converts markdown files into static html files for you to host anywhere you want. We use github pages, but any hosting provider will do.
+The kit renders your content into static html pages, inside a folder, that can be hosted anywhere.
+
+Project documentations, blogs, wikis, [digital gardens](https://github.com/MaggieAppleton/digital-gardeners), academia, table-top games, shops... The kit just seats on top of your content, and gives you full control over the UI & UX
+
+Welcome to the `kit` ! We hope you'll have as fun publishing your content as we're having crafting this project.
+
 
 
 ## get started
@@ -65,7 +72,9 @@ The `kit` converts markdown files into static html files for you to host anywher
 
 ## about
 
-PublishKit is developed by a french based indie studio named [[Studio1337]]. We are  passionnate folks with more then 20 years of tech expertise. We craft and design unique software, for specific needs, one project at a time, and taking the the time to , as we see fit. Programming is the art we practice.
+PublishKit is developed by [Studio1337](https://studio1337.tech), a french based indie tech studio. We are  passionnate folks totaling more then 20 years of tech expertise. We craft and design unique software, taking the time to build first class solutions, towards  sustainabilty & self expression.
 
-PublishKit is a full time project. We are actively focused on delivering best in class services and growing our community. We'd love to hear from you. If you have any question or feedback, we are on [discord](https://discord.gg/XMgVPajeT9)!
+PublishKit is our current full time project. We are actively focused on delivering high value to our users & community. We'd love to hear from you. If you have any question or feedback, we squat on [discord](https://discord.gg/XMgVPajeT9)!
 
+> [!info] 
+> This kit (this website) is hosted on github pages, and powers content created via Obsidian.

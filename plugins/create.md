@@ -1,5 +1,6 @@
 ---
 title: Create a plugin
+alias: $plugins.create
 ---
 # Create a plugin
 

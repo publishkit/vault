@@ -1,7 +1,6 @@
 ---
 alias: $password
-title: Password
-description: password protect a page
+description: password protect site/pages
 ---
 # password
 

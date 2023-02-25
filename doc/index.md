@@ -8,7 +8,7 @@ PublishKit philosophy is to be able to publish markdown content on the web, effo
 
 Each markdown file that PublishKit exports is processed and converted into a static html file, saved in the `kit` folder you configured.
 
-Once a file, or a list of files from a directory/vault, are exported, you can publish/deploy the `kit` folder to any hosting provider. PublishKit as it's name implies, is a kit, and don't take part in the hosting decision.
+Once a file, or files from a directory/vault, are exported, you can publish/deploy the `kit` folder to any hosting provider. PublishKit as it's name implies, is a kit, and don't take part in the hosting decision.
 
 The kit embrace the `static` experience and is meant to be deployed at the edge on CDN's. They offer ultra hight speed delievery of your content to the users, worldwide, for free. One other advantage about static apps is because all pages are delivered at nearly instant speed, they make for very consistent and pleasent browsing experiences. Which is something PublishKit is deeply focusing on. Our goal is to design first class publishing experiences for content first applications.
 

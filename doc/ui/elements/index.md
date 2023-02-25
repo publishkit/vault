@@ -3,15 +3,8 @@ title: UI showcase
 alias: $ui.showcase
 ---
 # UI showcase
-<!--
-```dataview
-table without id link(file.link, title) as ""
-from "doc/ui" 
-where file.link != [[doc/ui/index]] 
-and file.link != [[doc/ui/dirrc]]
-sort alias desc
-```
--->
+
+This page showcases the UI components.
 
 ![[typography|$ui.typography]]
 

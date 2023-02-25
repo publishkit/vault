@@ -21,3 +21,22 @@ plugins:
 chargebee:
   id: xxx
 ```
+
+### portal
+
+```html
+<button data-click="$chargebee.portal.open()">
+  Open Portal
+</button>
+```
+
+### add plan
+
+```html
+<button 
+	data-cb-type="checkout" 
+	data-cb-item-0="perso-yearly"
+>
+  Buy
+</button>
+```

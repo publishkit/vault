@@ -21,4 +21,4 @@ Now, whenever you want to export a file, you can either:
 
 ## configuration
 
-When you export a note for the first time, `= this.title` will ask you to specify the folder where you want your notes to be exported.
+When you export a note for the first time, `= this.title` will ask you to specify the `kit` folder where you want your notes to be exported. You have to provide an absolute url to the folder.

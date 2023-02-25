@@ -6,7 +6,7 @@ description: Google analytics
 ---
 # ga
 
-> This plugin adds google analytics tracker.
+> This plugin adds google analytics tracker to your site.
 
 ## use
 
