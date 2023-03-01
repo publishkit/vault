@@ -1,1 +1,0 @@
-- when renaming/moving a file, remove the old version in export folder
