@@ -1,11 +1,9 @@
 ---
-title: Kit
+title: The KIT
 alias: $home
 tags: home, rocknroll
 plugins:
   frontmatter: false
-og:
-  image: https://publishkit.dev/attachements/og-image.jpeg
 ---
 
 <!-- hero_title --><p data-ui="hero_title"></p>
@@ -77,4 +75,4 @@ The Kit is developed by [Studio1337](https://studio1337.tech), a French based in
 The Kit is our current full time project. We are actively focused on delivering high value to our users & community. We'd love to hear from you. If you have any question or feedback, we squat on [discord](https://discord.gg/XMgVPajeT9)!
 
 > [!info] 
-> This website was generated from markdown content, created and exported via obsidian, hosted on github pages and powered by the `kit`. 
+> This website was generated from markdown content, created and exported via obsidian, hosted on github pages and powered by the `kit`.  You can look at the source [here](https://github.com/publishkit/vault), and the exported kit [here](https://github.com/publishkit/publishkit.github.io)

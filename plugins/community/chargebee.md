@@ -24,7 +24,7 @@ chargebee:
 
 ### portal
 
-```html
+```markdown
 <button data-click="$chargebee.portal.open()">
   Open Portal
 </button>
@@ -32,7 +32,7 @@ chargebee:
 
 ### add plan
 
-```html
+```markdown
 <button 
 	data-cb-type="checkout" 
 	data-cb-item-0="perso-yearly"
