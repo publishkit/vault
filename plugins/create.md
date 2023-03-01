@@ -40,7 +40,7 @@ init -> render -> bind
 
 ### init
 
-Some plugins may require some initialisation before they get rendered. In that case just provide an `init` function to your plugin class.
+Some plugins may require some initialisation before they get rendered. In that case, just provide an `init` function to your plugin class.
 
 > [!info]
 > - If you don't provide an `init` function, the lifecycle will continue as normal.

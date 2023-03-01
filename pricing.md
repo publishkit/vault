@@ -54,11 +54,11 @@ props:
 
 ## about kits
 
-- You can activate as many kit as desired.
+- You can activate as many kits as desired.
 - Each kit has a unique `id`
 - Each kit is associated with a subscription. 
 - Kits are managed via the <a data-click="$chargebee.portal.open()"><i class="bx bxs-cog me-2"></i>Kit Portal</a>
-- The only configuration is a `domain` url.
+- The only configuration is a `domain` URL.
 
 > [!tip] kit portal
 > - simply send the OneTimePassword received by email and you will be logged into the portal, to manage your kits and billing details.
@@ -69,21 +69,21 @@ props:
 
 ## invoicing
 
-Our payment provider [chargebee](https://www.chargebee.com/), is a service that simplifies subscriptions based payments, on top of a [stripe](https://stripe.com) or Paypal account. 
+Our payment provider, [chargebee](https://www.chargebee.com/), simplifies subscriptions based payments on top of a [stripe](https://stripe.com) or PayPal account. 
 
 From the <a data-click="$chargebee.portal.open()"><i class="bx bxs-cog me-2"></i>Kit Portal</a> you can manage all of your subscriptions (kits) and download associated invoices.
 
-We are a french based company, and for now, only charge in euros, vat included.
+We are a French based company, and for now, only charge in euros, vat included.
 
 ## free usage
 
 Kits are 100% free to use and register for:
-- anyone publishing open source content
+- any open source content
 - anyone using the kit locally on their machine. 
 
-As soon as it leaves your local environnement, the kit will require a kit `id` to activate. The kid `id` has to be specified in the `site.id` config of the `kitrc`:
+As soon as it leaves your local environment, the kit will require a kit `id` to activate. The kid `id` has to be specified in the `site.id` config of the `kitrc`:
 
-```
+```yaml
 site:
   id: "my-kit-id"
 ```

@@ -37,6 +37,6 @@ default theme:
 - [@default|headings.font:Kiti Cuties](theme?theme=@default|headings.font:Kiti%20Cuties)
 
 matrix theme:
-- [@matrix](theme?theme=@matrix|primary:hex:0f0)
-- [@matrix|primary:red](theme?theme=@matrix|primary:red)
-- [@matrix|animate:false](theme?theme=@matrix|animate:false)
+- [@matrix](theme?theme=@matrix|primary:hex:0f0,highlight:false)
+- [@matrix|primary:red](theme?theme=@matrix|primary:red,highlight:false)
+- [@matrix|primary:hex:fff,animate:false](theme?theme=@matrix|primary:hex:fff,animate:false,highlight:false)

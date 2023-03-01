@@ -31,7 +31,7 @@ This page showcases the UI components.
 
 
 
-![[doc/ui/elements/modal|$ui.modal]]
+![[modal|$ui.modal]]
 
 
 
@@ -39,7 +39,7 @@ This page showcases the UI components.
 
 
 
-![[doc/ui/elements/pdf|$ui.pdf]]
+![[pdf|$ui.pdf]]
 
 
 

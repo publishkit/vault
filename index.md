@@ -1,5 +1,5 @@
 ---
-title: PublishKit
+title: Kit
 alias: $home
 tags: home, rocknroll
 plugins:
@@ -10,7 +10,7 @@ og:
 
 <!-- hero_title --><p data-ui="hero_title"></p>
 - title: Markdown publishing framework, as a service !
-- label: version 1.6.3
+- label: [![made-with-javascript](https://img.shields.io/badge/kit-1.6.6-%3Ccolor%3E.svg)](https://github.com/publishkit/kit/releases/tag/1.6.6)
 
 
 The `kit` renders markdown into any kind of web application, and with the use of plugins and declarative syntax, you can customize every aspect of your pages, in seconds!
@@ -53,17 +53,17 @@ Obsidian features:
 ## intro
 
 
-The kit really shines when used via a markdown PKM like Obsidian or Logseq. By using PKM internal features & plugins, like `[[wiki links]]` or `dataview` queries, you give more capabilities to your content. Combined with the kit plugins, you can shape and ship all kinds of web apps from a single tool.
+The kit really shines when used via a markdown [PKM](https://en.wikipedia.org/wiki/Personal_knowledge_management) app like [Obsidian](https://obsidian.md/) or [Logseq](https://logseq.com/). By using the PKM internal features & plugins, like `[[wiki links]]` or `dataview` queries, you can generate content faster, and augment your pages. Combined with the kit plugins, you can shape and ship all kinds of web apps from a single tool.
 
-The kit renders your content into static html pages, inside a folder, that can be hosted anywhere.
+The kit renders your content into static HTML pages, inside a folder, that can be hosted anywhere.
 
-Project documentations, blogs, wikis, [digital gardens](https://github.com/MaggieAppleton/digital-gardeners), academia, table-top games, shops... The kit just seats on top of your content, and gives you full control over the UI & UX
+Project documentations, blogs, wikis, [digital gardens](https://github.com/MaggieAppleton/digital-gardeners), academia, table-top games, shops... The kit just seats on top of your content, and gives you full control over the UI & UX.
 
 Welcome to the `kit` ! We hope you'll have as fun publishing your content as we're having crafting this project.
 
 
 
-## get started
+## resources
 
 - [[doc/index|User Guide]]
 - [[plugins/index|Plugins]]
@@ -72,9 +72,9 @@ Welcome to the `kit` ! We hope you'll have as fun publishing your content as we'
 
 ## about
 
-PublishKit is developed by [Studio1337](https://studio1337.tech), a french based indie tech studio. We are  passionnate folks totaling more then 20 years of tech expertise. We craft and design unique software, taking the time to build first class solutions, towards  sustainabilty & self expression.
+The Kit is developed by [Studio1337](https://studio1337.tech), a French based indie tech studio. We craft and design unique software, taking the time to build first class solutions, towards  sustainability & self-expression.
 
-PublishKit is our current full time project. We are actively focused on delivering high value to our users & community. We'd love to hear from you. If you have any question or feedback, we squat on [discord](https://discord.gg/XMgVPajeT9)!
+The Kit is our current full time project. We are actively focused on delivering high value to our users & community. We'd love to hear from you. If you have any question or feedback, we squat on [discord](https://discord.gg/XMgVPajeT9)!
 
 > [!info] 
-> This kit (this website) is hosted on github pages, and powers content created via Obsidian.
+> This website was generated from markdown content, created and exported via obsidian, hosted on github pages and powered by the `kit`. 
