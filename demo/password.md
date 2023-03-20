@@ -8,4 +8,4 @@ description: password = foobar
 
 This page was successfully unlocked.
 
-check out the [[plugins/core/password|$password]] plugin!
+check out the [[doc/plugins/core/password|$password]] plugin!

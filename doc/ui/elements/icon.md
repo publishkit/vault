@@ -12,6 +12,7 @@ Choose any of the 1634 open source icons from [boxicons](https://boxicons.com/).
 <i class='bx bxs-plane bx-lg'></i>
 ```
 
+<!-- preview --><p data-preview></p>
 <!-- Icons below -->
 <div class="d-flex align-items-center">
 <i class='bx bxs-plane bx-xs'></i>
@@ -19,4 +20,6 @@ Choose any of the 1634 open source icons from [boxicons](https://boxicons.com/).
 <i class='bx bxs-plane bx-md'></i>
 <i class='bx bxs-plane bx-lg'></i>
 </div>
+
+<!-- end:preview --><p data-end></p>
 

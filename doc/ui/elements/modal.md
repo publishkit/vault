@@ -25,4 +25,4 @@ alias: $ui.modal
   </article>
 </dialog>
 
-checkout the [[plugins/core/modal|$modal]] plugin!
+checkout the [[doc/plugins/core/modal|$modal]] plugin!

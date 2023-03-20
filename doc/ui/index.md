@@ -1,10 +1,9 @@
 ---
-title: $ui
+title: UI
 alias: $ui
 ---
-# $ui
+# UI
 
-All about ui
+This page showcases the UI components.
 
-- [[doc/ui/elements/index|$ui.showcase]]
-- ui builder
+![[doc/ui/elements/index]]

@@ -2,9 +2,6 @@
 title: UI showcase
 alias: $ui.showcase
 ---
-# UI showcase
-
-This page showcases the UI components.
 
 ![[typography|$ui.typography]]
 
@@ -31,7 +28,7 @@ This page showcases the UI components.
 
 
 
-![[modal|$ui.modal]]
+![[doc/ui/elements/modal|$ui.modal]]
 
 
 
@@ -39,7 +36,7 @@ This page showcases the UI components.
 
 
 
-![[pdf|$ui.pdf]]
+![[doc/ui/elements/pdf|$ui.pdf]]
 
 
 
@@ -48,6 +45,3 @@ This page showcases the UI components.
 
 
 ![[color|$ui.color]]
-
-
-

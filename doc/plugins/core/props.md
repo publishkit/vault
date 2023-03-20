@@ -8,6 +8,7 @@ props:
   counter: 1
   tickers: ["€", "¥"]
   total: "(price, qty, ticker='€') => (price * qty) + ticker"
+  toggleColor: "() => { ~color = ~color == 'red' ? 'blue' : 'red' }"
   foo:
     bar: "baz"
 ---
@@ -25,6 +26,7 @@ props:
   color: "red"
   tickers: ["€", "¥"]
   total: "(price, qty, ticker=0) => (price * qty) + ~tickers[ticker]"
+  toggleColor: "() => { ~color = ~color == 'red' ? 'blue' : 'red' }"
   foo:
     bar: "baz"
 ```
@@ -68,7 +70,7 @@ Props resolves to their litteral javascript value, so any valid javascript will 
 Use props inside click events:
 
 ```markdown
-counter = ~counter
+`counter` = <span>~counter</span>
 
 <button data-click="~counter--">
   decrement
@@ -78,93 +80,74 @@ counter = ~counter
 </button>
 ```
 
-counter = <span>~counter</span>
+<!-- preview --><p data-preview></p>
+`counter` = <span>~counter</span>
 
-<button class="secondary outline" data-click="~counter--">
+<button class="secondary outline me-2" data-click="~counter--">
 <i class="bx bx-minus-circle me-2"></i>decrement
 </button>
 <button class="secondary outline" data-click="~counter++">
 <i class="bx bx-plus-circle me-2"></i>increment
 </button>
 
+<!-- end:switch --><p data-end></p>
 
 
-## data-ui
-
-You can transform lists into specific ui components, by inserting a html `p` tag before the list, and specifying a `data-ui` component.
-
-```markdown
-<p data-ui="switch"></p>
-- red
-- blue
-```
-
-<!-- kit --><p data-ui="switch"></p>
-- red
-- blue
 
 ## data-bind
 
-You can bind ui components to a props, so that it's stays in sync:
+You can bind props to native html inputs and kit [[doc/widgets/index|widgets]]. 
+
+- on an input:
 
 ```markdown
-<p data-ui="switch" data-bind="~color"></p>
-- red
-- blue
+`foo.bar` = <span>~foo.bar</span>
+<input type="text" data-bind="~foo.bar" />
 ```
 
-current `color` value = <span>~color</span>
+<!-- preview --><p data-preview></p>
+`foo.bar` = <span>~foo.bar</span>
 
-<!-- kit --><p data-ui="switch" data-bind="~color"></p>
+<input type="text" data-bind="~foo.bar" />
+
+<!-- end:preview --><p data-end></p>
+
+
+- on a kit widget
+
+```markdown
+`color` = <span>~color</span>
+
+<p data-switch data-bind="~color"></p>
+
 - red
 - blue
 
+<p data-end></p>
+```
+
+<!-- preview --><p data-preview></p>
+`color` = <span>~color</span>
+
+<!-- switch --><p data-switch data-bind="~color"></p>
+- red
+- blue
+
+<!-- end:switch --><p data-end></p>
+<!-- end:preview --><p data-end></p>
 
 ## data-show
 
 Display an element when a given condition is met:
 
 ```markdown
+<button data-click="~toggleColor()" role="button">Toggle</button>
 <span data-show="~color=='red'">red</span>
 <span data-show="~color=='blue'">blue</span>
 ```
 
-Ex: <span data-show="~color=='red'">red</span><span data-show="~color=='blue'">blue</span>
+<!-- preview --><p data-preview></p>
+<button data-click="~toggleColor()" role="button" class="d-inline m-0 me-4">Toggle</button><span data-show="~color=='red'">red</span><span data-show="~color=='blue'">blue</span>
 
-## lists
+<!-- end:preview --><p data-end></p>
 
-Basic list:
-
-```markdown
-- monthly
-- yearly
-```
-
-```js
-[
-  { key: "monthly"},
-  { key: "yearly"},
-]
-```
-
-Detailed list:
-
-```markdown
-- monthly
-  - label: <i class="bx bx-calendar me-2"></i>MONTHLY
-- yearly
-  - label: YEARLY <i class="bx bxs-gift ms-2" ></i>
-```
-
-```js
-[
-  { 
-    key: "monthly", 
-    label: "<i class='bx bx-calendar me-2'></i>MONTHLY"
-  },
-  { 
-    key: "yearly", 
-    label: "YEARLY <i class='bx bx-gift me-2'></i>"
-  },
-]
-```

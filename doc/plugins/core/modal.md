@@ -12,18 +12,14 @@ description: Use modals
 
 ## use
 
-Modal can be created programmatically via plugins, or manualy inside content.
+Modal can be manualy added inside content, or programmatically created via plugins.
 
-### programmatic
-
-```js
-ui.addModal()
-```
+### in content
 
 In the markdown file add a call to action, using any tag you want.
 
 ```html
-<!-- A Tag (use return statement) -->
+<!-- Link Tag (use return statement) -->
 <a href="#" 
    role="button" 
    class="contrast outline" 
@@ -70,6 +66,13 @@ add the modal:
 </dialog>
 ```
 
+### in plugin
+
+```js
+ui.addModal()
+```
+
+
 ## demo
 
 <button class="contrast outline" data-click="$modal.open('modal-example')">Open modal</button>
@@ -92,3 +95,4 @@ add the modal:
 	</footer>
   </article>
 </dialog>
+

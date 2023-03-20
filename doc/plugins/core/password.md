@@ -15,7 +15,7 @@ password: foobar
 ## options
 
 Password can be applied: 
-- globaly - in the `kitrc.md`
+- globaly - in the [[doc/services/kitrc|kitrc]]
 - on a directory basis - in a `dirrc.md` file in that directory
 - on a file basis
 

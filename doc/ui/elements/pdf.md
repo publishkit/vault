@@ -5,4 +5,4 @@ alias: $ui.pdf
 
 ![[showcase-pdf.pdf]]
 
-checkout the [[plugins/core/pdf|$pdf]] plugin!
+checkout the [[doc/plugins/core/pdf|$pdf]] plugin!

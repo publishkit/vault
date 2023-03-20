@@ -6,7 +6,7 @@ alias: Core Plugins
 
 ```dataview
 table without id link(file.link) as plugin, description
-from "plugins/core"
-where file.link != [[plugins/core/index]]
+from "doc/plugins/core"
+where file.link != [[doc/plugins/core/index]]
 sort file.name
 ```

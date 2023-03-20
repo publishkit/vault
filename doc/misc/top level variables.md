@@ -1,5 +1,5 @@
 
-# Top level variables
+# top level variables
 
 - title
 - description

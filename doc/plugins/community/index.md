@@ -2,11 +2,11 @@
 title: Community Plugins
 alias: Community Plugins
 ---
-# Community plugins
+#  Plugins
 
 ```dataview
 table without id link(file.link) as plugin, description
-from "plugins/community"
-where file.link != [[plugins/community/index]]
+from "doc/plugins/community" 
+where file.link != [[doc/plugins/community/index]]
 sort file.name
 ```

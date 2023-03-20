@@ -2,7 +2,7 @@
 title: Services
 alias: Services
 ---
-# Services
+# services
 
 ```dataview
 table without id link(file.link, title) as "", description as " "

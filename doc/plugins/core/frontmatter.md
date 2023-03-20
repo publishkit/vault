@@ -19,4 +19,4 @@ plugins:
 
 # preview
 
-- [frontmatter=true](plugins/core/frontmatter?p=frontmatter)
+- [frontmatter=true](doc/plugins/core/frontmatter?p=frontmatter)
