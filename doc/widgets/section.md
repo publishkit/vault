@@ -3,10 +3,10 @@ alias: $ui.section
 ---
 # section
 
-Sections are meant to be used with `layout.fluid`, and take 100% of the width wiewport. You can wrap any markdown into a section:
+Sections are meant to be used with `layout.fluid`, and takes 100% of the width wiewport. You can wrap any markdown into a section:
 
 ```markdown
-<p data-section class="primary-bg text-white"></p>
+<p data-section class="gradient-bg text-white"></p>
 
 # Basic section
 
@@ -15,7 +15,7 @@ Dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
 <p data-end></p>
 ```
 
-<!-- section --><p data-section class="primary-bg text-white mb-4"></p>
+<!-- section --><p data-section class="gradient-bg text-white mb-4"></p>
 <h1 class="noprocess">Basic section</h1>
 
 Dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.

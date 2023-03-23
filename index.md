@@ -8,7 +8,7 @@ plugins:
 
 <!-- hero:title --><p data-hero-title></p>
 - title: Plug and play web framework for the markdown era !
-- label: [![made-with-javascript](https://img.shields.io/badge/kit-1.7.1-%3Ccolor%3E.svg)](https://github.com/publishkit/kit/releases/tag/1.7.1)
+- label: [![made-with-javascript](https://img.shields.io/badge/kit-1.8.2-%3Ccolor%3E.svg)](https://github.com/publishkit/kit/releases/tag/1.8.2)
 
 <!-- end:hero:title --><p data-end></p>
 

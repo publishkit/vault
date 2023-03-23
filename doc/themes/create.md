@@ -9,7 +9,7 @@ Creating a theme is very easy. In a javascript file, return a class defining you
 The exemple below is the actual `@default` theme of the kit. You can look at the source file [here](https://github.com/publishkit/community/blob/main/themes/default.js).
 
 ```js
-eturn class Theme extends BaseTheme {
+return class Theme extends BaseTheme {
   constructor(id, options) {
     super(id, options, {
       highlight: "nord",
@@ -18,7 +18,19 @@ eturn class Theme extends BaseTheme {
   }
 
   style = async () => {
-    return this.modes.render();
+    const { modes } = this;
+    
+    modes.all(`
+      --primary: red;
+      
+      div {
+	    p {
+          color: var(--primary)
+        }
+      }
+    `)
+    
+    return modes.render();
   };
 };
 ```
