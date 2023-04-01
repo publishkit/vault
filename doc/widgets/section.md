@@ -24,9 +24,9 @@ Dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
 ## background
 
 You can use the following classes:
-- `primary-bg`
-- `secondary-bg`
-- `gradient-bg`
+- primary-bg
+- secondary-bg
+- gradient-bg
 
 You can also specify the background color in the `data-bg` prop:
 

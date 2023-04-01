@@ -33,8 +33,6 @@ You can style a card by using the `class` & `style` attribute.
 
 styled card
 
-
-
 <p data-end></p>
 ```
 

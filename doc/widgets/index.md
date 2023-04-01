@@ -4,10 +4,11 @@ alias: $widgets
 props:
   name: "Bruce Wayne"
   color: "red"
+  colors: []
 ---
 # Widgets
 
-The kit provides customisable widgets to enhance your content. Just include the widget in your markdown, and give it some options.
+The kit provides customisable widgets to enhance your content. Just include the widget in your markdown and give it some options.
 
 ## use
 
@@ -23,7 +24,7 @@ And some **bold** text inside a `card` widget !
 <p data-end></p>
 ```
 
-<!-- preview --><p data-preview></p>
+<!-- preview --><p data-card></p>
 <h1 class="noprocess">Some title</h1>
 
 And some **bold** text inside a `card` widget !
@@ -65,7 +66,7 @@ Some widgets takes a predefined dataset as an argument, that you can pass via:
 
 - a markdown list inside the wrapped widget tags:
 ```markdown
-<p data-card class="grid-auto text-center"></p>
+<p data-card class="grid-auto fixed text-center"></p>
 
 - foo
 - bar
@@ -74,7 +75,7 @@ Some widgets takes a predefined dataset as an argument, that you can pass via:
 <p data-end></p>
 ```
 
-<!-- cards --><p data-card class="grid-auto text-center"></p>
+<!-- cards --><p data-card class="grid-auto fixed text-center"></p>
 - foo
 - bar
 - baz
@@ -126,9 +127,17 @@ Detailed list:
 
 # Widget
 
+- [input](doc/widgets#heading-input)
+- [select](doc/widgets#heading-select)
+- [switch](doc/widgets#heading-switch)
+- [section](doc/widgets#heading-section)
+- [card](doc/widgets#heading-card)
+
 ![[input]]
 
 ![[switch]]
+
+![[select]]
 
 ![[section]]
 

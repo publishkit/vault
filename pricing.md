@@ -93,7 +93,7 @@ site:
   id: "my-kit-id"
 ```
 
-> [!note] localhost
+> [!note] localhost 
 > a kit can be used locally without having to be registered. use the cli `kit serve` command and to open your kit folder in the browser on localhost.
 
 

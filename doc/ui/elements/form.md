@@ -4,16 +4,42 @@ alias: $ui.form
 # form
 
 <div>
-<input type="text" value="foobar" />
+<fieldset>
+<input type="text" value="" />
+</fieldset>
+<fieldset>
 <input type="date" />
+</fieldset>
+<fieldset>
 <input type="time" />
+</fieldset>
+<fieldset>
 <input type="color" />
-<input type="search" value="foobar" />
-<select>
-<option value="" selected>Select a fruit…</option>
-<option>…</option>
-<option>…</option>
+</fieldset>
+<fieldset>
+<input type="search" placeholder="search" />
+</fieldset>
+
+<!-- Select -->
+<fieldset>
+<select data-select placeholder="Select">
+<option>Option 1</option>
+<option>Option 2</option>
+<option>Option 3</option>
 </select>
+</fieldset>
+
+<!-- Multi Select -->
+<fieldset>
+<select data-select="" multiple placeholder="Multi Select">
+<option>Option 1</option>
+<option>Option 2</option>
+<option>Option 3</option>
+</select>
+</fieldset>
+
+<!-- Dropdown -->
+<fieldset>
 <details role="list">
   <summary aria-haspopup="listbox">Dropdown</summary>
   <ul role="listbox">
@@ -22,6 +48,8 @@ alias: $ui.form
 	<li><a href="#" data-click="return false">Something else here</a></li>
   </ul>
 </details>
+</fieldset>
+
 <!-- Radios -->
 <fieldset>
 <label for="small">
@@ -57,5 +85,8 @@ alias: $ui.form
 	switch
 </label>
 </fieldset>
+
+
+
 </div>
 

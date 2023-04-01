@@ -40,7 +40,7 @@ alias: $ui.showcase
 
 
 
-![[latex|$ui.latex]]
+![[doc/ui/elements/latex|$ui.latex]]
 
 
 
