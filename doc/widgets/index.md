@@ -1,6 +1,7 @@
 ---
 title: Widgets
 alias: $widgets
+tags: [widget]
 props:
   name: "Bruce Wayne"
   color: "red"

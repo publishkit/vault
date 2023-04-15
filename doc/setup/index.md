@@ -1,6 +1,7 @@
 ---
 title: Setup
 alias: Setup
+tags: [setup]
 ---
 # Setup
 

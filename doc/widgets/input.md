@@ -1,5 +1,6 @@
 ---
 alias: $widget.input
+tags: [widget, input]
 props:
   name: "Bruce Wayne"
 ---

@@ -13,7 +13,7 @@ plugins:
 <!-- end:hero:title --><p data-end></p>
 
 
-The `kit` renders markdown into any kind of web application, and with the use of plugins and declarative syntax, you can customize every aspect of your pages, in seconds!
+The `kit` renders markdown into any kind of web application, and with the use of plugins and declarative syntax, you can customize every aspect of your pages, in seconds!;kljhrkljrhljkhrrhjklrhjkl
 
 ## features
 
@@ -23,6 +23,7 @@ Core features:
 - [x] global, folder & file level configuration
 - [x] [[doc/themes/index|theming]] (colors, fonts, headers, ...)
 - [x] full-text [[search|search]] 
+- [x] [[tags]] cloud navigation
 - [x] [[doc/plugins/core/password|password]] protected content
 - [x] assets support (images & [[doc/plugins/core/pdf|pdfs]])
 - [x] seo & [[og|open graph]] ready

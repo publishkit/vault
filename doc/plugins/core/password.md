@@ -1,25 +1,27 @@
 ---
 alias: $password
-description: password protect site/pages
+description: Restrict access to your site
+tags: [plugin, core, password]
 ---
 # password
 
-The password plugin is technically not a plugin. You specify a password at the root of the frontmatter, and the content get sha256 encoded with the password. Of course the password is removed from the export and never enters the kit.
+> Restrict access to your site, directories or pages.
+ 
+
 
 ## use
+
+Restrict access by adding a password at the root of the frontmatter:
+- site level - in the [[doc/services/kitrc|kitrc]]
+- directory level - in the [[demo/dirrc]] file in that directory
+- file level
 
 ```yml
 password: foobar
 ```
 
-## options
-
-Password can be applied: 
-- globaly - in the [[doc/services/kitrc|kitrc]]
-- on a directory basis - in a `dirrc.md` file in that directory
-- on a file basis
-
-It's a single password by file.
+- Only 1 password by file is supported.
+- Content is sha256 encoded.
 
 ## demo
 

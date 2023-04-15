@@ -1,5 +1,6 @@
 ---
 alias: $ui.section
+tags: [widget, section]
 ---
 # section
 

@@ -3,6 +3,7 @@ alias: $pdf
 core: true
 author: louis
 description: Customize pdf preview
+tags: [plugin, core, pdf]
 pdf:
   width: inherit
 ---

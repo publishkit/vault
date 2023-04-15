@@ -3,6 +3,7 @@ alias: $header
 core: true
 author: louis
 description: Customize site header
+tags: [plugin, core, header]
 ---
 # header
 

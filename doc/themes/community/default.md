@@ -1,6 +1,7 @@
 ---
 author: louis
 description: Default theme
+tags: [theme]
 ---
 # default
 

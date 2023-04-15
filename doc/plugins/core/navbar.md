@@ -3,6 +3,7 @@ alias: $navbar
 core: true
 author: louis
 description: Add a navigation menu
+tags: [plugin, core, navbar]
 ---
 # navbar
 

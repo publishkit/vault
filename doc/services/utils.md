@@ -1,6 +1,5 @@
 ---
 title: utils
-alias: $utils
-description: powerful utilities
+description: Kit utilities
 ---
 # utils

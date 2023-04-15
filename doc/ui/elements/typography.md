@@ -1,5 +1,6 @@
 ---
 alias: $ui.typography
+tags: [ui, typography]
 ---
 # typography
 

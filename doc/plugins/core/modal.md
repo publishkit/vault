@@ -3,6 +3,7 @@ alias: $modal
 core: true
 author: louis
 description: Use modals
+tags: [plugin, core, modal]
 ---
 # modals
 

@@ -3,6 +3,7 @@ alias: $hero
 core: true
 author: louis
 description: Add a hero banner
+tags: [plugin, core, hero]
 ---
 # hero
 

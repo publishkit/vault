@@ -1,5 +1,6 @@
 ---
 alias: $widget.select
+tags: [widget, select]
 props:
   color: "red"
   colors: []

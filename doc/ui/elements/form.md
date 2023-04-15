@@ -1,5 +1,6 @@
 ---
 alias: $ui.form
+tags: [ui, form]
 ---
 # form
 

@@ -1,5 +1,6 @@
 ---
 alias: $ui.table
+tags: [ui, table]
 ---
 # table
 

@@ -3,6 +3,7 @@ alias: $darkmode
 core: true
 author: louis
 description: Enable darkmode
+tags: [plugin, core, darkmode]
 ---
 # darkmode
 

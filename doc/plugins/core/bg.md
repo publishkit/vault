@@ -1,6 +1,7 @@
 ---
 alias: $bg
 description: Custom backgrounds
+tags: [plugin, core, background]
 ---
 # bg
 

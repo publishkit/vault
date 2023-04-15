@@ -1,5 +1,6 @@
 ---
 alias: $ui.codeblock
+tags: [ui, codeblock]
 ---
 # codeblock
 

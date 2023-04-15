@@ -1,5 +1,6 @@
 ---
 alias: $widget.card
+tags: [widget, card]
 ---
 # card
 

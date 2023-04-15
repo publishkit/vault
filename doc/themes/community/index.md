@@ -1,6 +1,7 @@
 ---
 title: Community Themes
 alias: Community Themes
+tags: [theme, community]
 ---
 # Themes
 

@@ -1,5 +1,6 @@
 ---
 alias: $widget.switch
+tags: [widget, switch]
 props:
   color: "red"
 ---

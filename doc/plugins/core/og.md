@@ -1,6 +1,7 @@
 ---
 alias: $og
 description: Open Graph
+tags: [plugin, core, opengraph]
 ---
 # og 
 

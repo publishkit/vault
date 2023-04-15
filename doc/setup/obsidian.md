@@ -1,6 +1,7 @@
 ---
 title: Obsidian Plugin
 alias: $setup.obsidian
+tags: [setup, obsidian]
 ---
 # Obsidian
 

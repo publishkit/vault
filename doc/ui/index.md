@@ -1,6 +1,7 @@
 ---
 title: UI
 alias: $ui
+tags: [ui]
 ---
 # UI
 

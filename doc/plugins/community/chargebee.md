@@ -3,6 +3,7 @@ alias: $chargebee
 core: true
 author: louis
 description: Chargebee payment platform
+tags: [plugin, community, chargebee]
 ---
 # chargebee
 

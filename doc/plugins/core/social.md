@@ -3,6 +3,7 @@ alias: $social
 core: true
 author: louis
 description: Add social links in footer
+tags: [plugin, core, social]
 ---
 # social
 

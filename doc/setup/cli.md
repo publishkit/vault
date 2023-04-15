@@ -1,6 +1,7 @@
 ---
 title: PublishKit Cli
 alias: $setup.cli
+tags: [setup, CLI]
 ---
 # Cli setup
 

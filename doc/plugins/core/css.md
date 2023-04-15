@@ -3,6 +3,7 @@ alias: $css
 core: true
 author: louis
 description: Override css variables
+tags: [plugin, core, css]
 ---
 # css
 

@@ -2,6 +2,7 @@
 title: Themes
 alias: Themes, $themes
 description: Play with themes
+tags: [theme]
 ---
 # Themes
 

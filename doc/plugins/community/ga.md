@@ -3,6 +3,7 @@ alias: $ga
 core: true
 author: louis
 description: Google analytics
+tags: [plugin, community, ga]
 ---
 # ga
 

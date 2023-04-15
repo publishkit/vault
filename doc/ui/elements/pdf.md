@@ -1,5 +1,6 @@
 ---
 alias: $ui.pdf
+tags: [ui, pdf]
 ---
 # pdf
 

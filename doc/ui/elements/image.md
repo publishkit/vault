@@ -1,5 +1,6 @@
 ---
 alias: $ui.image
+tags: [ui, image]
 ---
 # image
 

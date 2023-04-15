@@ -1,5 +1,6 @@
 ---
 alias: $ui.icon
+tags: [ui, icon]
 ---
 # icon
 

@@ -2,6 +2,7 @@
 
 ---
 alias: $ui.latex
+tags: [ui, latex]
 ---
 # latex
 

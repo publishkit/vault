@@ -3,6 +3,7 @@ alias: $codeblocks
 core: true
 author: louis
 description: Customize codeblocks
+tags: [plugin, core, codeblocks]
 ---
 # css
 

@@ -1,6 +1,7 @@
 ---
 author: louis
 description: Matrix theme
+tags: [theme, community, matrix]
 ---
 # matrix
 

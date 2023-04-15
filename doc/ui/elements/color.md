@@ -1,5 +1,6 @@
 ---
 alias: $ui.color
+tags: [ui, color]
 ---
 # color
 

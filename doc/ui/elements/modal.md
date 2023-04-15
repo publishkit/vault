@@ -1,5 +1,6 @@
 ---
 alias: $ui.modal
+tags: [ui, modal]
 ---
 # modal
 

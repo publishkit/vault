@@ -1,6 +1,7 @@
 ---
 title: Publish on Github
 alias: $setup.github
+tags: [setup, github]
 ---
 # Publish on Github
 

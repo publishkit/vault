@@ -1,5 +1,6 @@
 ---
 alias: $ui.callout
+tags: [ui, callout]
 ---
 # callout
 

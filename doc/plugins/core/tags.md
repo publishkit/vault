@@ -1,12 +1,12 @@
 ---
 alias: $tags
-description: Tags search
-
+description: Enable tags search
+tags: [plugin, core, tags]
 ---
 # tags
 
 
-> Tag search
+> Enable tags search
 
 ## use
 
@@ -19,7 +19,16 @@ plugins:
 
 ```yaml
 tags:
+  placeholder: "Search Tags..."
+  shortcut: "control+k"
+  cloud: true
+  header_icon: false
 ```
 
+## demo
 
-#Solutions #Farming #RegenerativeAgriculture #WaterUse #Soil #Food #LandUse #FoodSecurity #JustTransition #IndigenousRights #Cows #Concrete #Combustion #rocknroll
+<button class="secondary outline me-2" data-click="$modal.open('tags.modal')">
+<i class="bx bx-hash me-2"></i>Search Tags
+</button>
+
+#ui #widget #theme #plugin

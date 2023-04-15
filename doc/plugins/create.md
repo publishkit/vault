@@ -1,6 +1,7 @@
 ---
 title: Create a plugin
 alias: Create a plugin
+tags: [plugin, create]
 ---
 # Create a plugin
 

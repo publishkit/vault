@@ -1,6 +1,7 @@
 ---
 title: Publish on Gitlab
 alias: $setup.github
+tags: [setup, gitlab]
 ---
 # Publish on Gitlab
 

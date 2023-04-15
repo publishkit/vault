@@ -1,6 +1,7 @@
 ---
 title: Community Plugins
 alias: Community Plugins
+tags: [plugin, community]
 ---
 #  Plugins
 

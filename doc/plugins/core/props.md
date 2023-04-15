@@ -3,6 +3,7 @@ alias: $props
 core: true
 author: louis
 description: Dynamic content bindings
+tags: [plugin, core, props]
 props:
   color: "red"
   counter: 1

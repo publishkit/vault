@@ -1,6 +1,7 @@
 ---
 title: Create a theme
 alias: Create a theme
+tags: [theme, create]
 ---
 # Create a theme
 
