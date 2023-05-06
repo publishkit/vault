@@ -4,3 +4,7 @@
 
 
 Give your content the features it serves
+
+- push new cli version
+- password in localstorage for long session
+- image externe est pas process dans la card

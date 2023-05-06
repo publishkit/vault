@@ -8,12 +8,12 @@ plugins:
 
 <!-- hero:title --><p data-hero-title></p>
 - title: Plug and play web framework for the markdown era !
-- label: [![made-with-javascript](https://img.shields.io/badge/kit-1.8.5-%3Ccolor%3E.svg)](https://github.com/publishkit/kit/releases/tag/1.8.5)
+- label: [![made-with-javascript](https://img.shields.io/badge/kit-1.8.9-%3Ccolor%3E.svg)](https://github.com/publishkit/kit/releases/tag/1.8.9)
 
 <!-- end:hero:title --><p data-end></p>
 
 
-The `kit` renders markdown into any kind of web application, and with the use of plugins and declarative syntax, you can customize every aspect of your pages, in seconds!;kljhrkljrhljkhrrhjklrhjkl
+The `kit` renders markdown into any kind of web application, and with the use of plugins and declarative syntax, you can customize every aspect of your pages, in seconds!
 
 ## features
 

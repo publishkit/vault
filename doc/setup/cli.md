@@ -36,7 +36,7 @@ kit serve -p 1337
 ```
 
 > [!tip] 
->  The serve command is an alias of the node [http-server](https://github.com/http-party/http-server) module, but can automatically open up the browser. To specify a port run `pk serve -p 1337`
+>  The serve command is an alias of the node [http-server](https://github.com/http-party/http-server) module, but can automatically open up the browser. To specify a port run `kit serve -p 1337`
 
 
 ## ls
